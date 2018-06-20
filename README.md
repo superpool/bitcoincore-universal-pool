@@ -58,6 +58,7 @@ Features
 - Support Nicehash, MiningRigRentails
 
 JSON API
+
  API is unified on all our pool's (
  [Ethash pool](https://github.com/superpool/ethash-universal-pool)
  [Bitcoincore pool](https://github.com/superpool/bitcoincore-universal-pool)
