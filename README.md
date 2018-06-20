@@ -49,3 +49,7 @@ Features
 
 Configuration
 - Configuration is actually simple, just read it twice and think twice before changing defaults.
+
+Credits
+- modifed by AME Corp
+- based on node-stratum-pool
