@@ -1,0 +1,5 @@
+{
+    "name": "VergeBlake",
+    "symbol": "XVG",
+    "algorithm": "blake2s"
+}

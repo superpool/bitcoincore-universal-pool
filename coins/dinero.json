@@ -1,0 +1,5 @@
+{
+    "name": "Dinero",
+    "symbol": "DIN",
+    "algorithm": "neoscrypt"
+}
