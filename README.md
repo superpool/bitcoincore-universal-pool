@@ -68,6 +68,7 @@ Configuration
 
 Dependencies:
 - Ubuntu 16.04 LTS
+- Nginx
 - Redis-server
 - Nodejs
 - Coin daemon (support coins based on bitcoin core v0.13-0.16)
