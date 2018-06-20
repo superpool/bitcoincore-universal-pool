@@ -57,6 +57,21 @@ Features
 - Ability to configure multiple ports - each with their own difficulty
 - Support Nicehash, MiningRigRentails
 
+JSON API
+ API is unified on all our pool's (
+ [Ethash pool](https://github.com/superpool/ethash-universal-pool)
+ [Bitcoincore pool](https://github.com/superpool/bitcoincore-universal-pool)
+ [Equihash pool](https://github.com/superpool/equihash-universal-pool)
+ [Cryptonote pool](https://github.com/superpool/cryptonote-universal-pool)
+ )
+ - /health
+ - /stats
+ - /live_stats
+ - /stats_address
+ - /get_payments
+ - /get_blocks
+ - /get_payment
+
 Unsupported
 - P2P
 - Blocknotify
