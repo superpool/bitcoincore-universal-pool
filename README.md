@@ -48,6 +48,7 @@ Features
 - PPLNS block reward
 - JSON API for get statistic
 - Html static frontend, easy for modification
+- Support Nicehash, MiningRigRentails
 
 Configuration
 - Configuration is actually simple, just read it twice and think twice before changing defaults.
