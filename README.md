@@ -9,6 +9,7 @@ Supported algoritms
 - scrypt-jane
 - scrypt-n
 - sha1
+- c11
 - x11
 - x11gost
 - bitcore
@@ -43,24 +44,34 @@ Supported algoritms
 
 Features
 - Support stratum mining
-- Support vardiff
+- Support vardiff, fixediff
 - Support workers id
 - PPLNS block reward
 - JSON API for get statistic
-- Html static frontend, easy for modification
+- An easily extendable, responsive, light-weight front-end using API to display data
+- IP banning to prevent low-diff share attacks
+- Session managing for purging DDoS/flood initiated zombie workers
+- Auto ban IPs that are flooding with invalid shares
+- Socket flooding detection
+- Detailed logging
+- Ability to configure multiple ports - each with their own difficulty
 - Support Nicehash, MiningRigRentails
+
+Unsupported
+- P2P
+- Blocknotify
 
 Configuration
 - Configuration is actually simple, just read it twice and think twice before changing defaults.
+- One instance multiply coins
 - Dev fee 1.5% of pool fee.
 
 Dependencies:
 - Ubuntu 16.04 LTS
 - Redis-server
 - Nodejs
-- Coin daemon
-- Coin rpc wallet 
+- Coin daemon (support coins based on bitcoin core v0.13-0.16)
 
 Credits
 - Modifed by AME Corp
-- based on node-stratum-pool
+- Based on node-stratum-pool
